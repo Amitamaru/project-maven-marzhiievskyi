@@ -95,8 +95,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M7</version>
                 <configuration>
-<!--                    <includes></includes>-->
-<!--                    <excludes></excludes>-->
+                    <excludes>StrangeTest.java</excludes>
                 </configuration>
             </plugin>
 
